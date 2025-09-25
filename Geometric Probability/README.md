@@ -17,7 +17,8 @@
 
 Все подачи случайны, но всегда попадают в этот участок.  
 Мяч приземляется в **любой точке квадрата с равной вероятностью**.
-![]("[теннис.png](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81.png)")
+
+![]("https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81.png")
 ---
 
 ## Вопрос
