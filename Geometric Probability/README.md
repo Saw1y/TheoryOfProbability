@@ -59,7 +59,7 @@ $$
 ---
 ## Геометрическая вероятность 
 
-Пускай теннисист Алексей сделает 100_000 бросков 
+Пускай теннисист Алексей сделает 100_000 подач 
 
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/100_000.png)
 
@@ -67,7 +67,7 @@ $$
 P(A) = 0.1245
 $$
 
-Теперь пускай он сделает 300_000 бросков
+Теперь пускай он сделает 300_000 подач
 
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/300_000.png)
 
