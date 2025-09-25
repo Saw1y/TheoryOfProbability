@@ -72,5 +72,5 @@ $$
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/300_000.png)
 
 $$
-P(A) = 0.1245
+P(A) = 0.1249
 $$
