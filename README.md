@@ -1,5 +1,7 @@
 # Практические задания по Теории вероятностей
 
+---
+
 ## Тема 1. Моделирование геометрической вероятности: Теннисная подача Алексея
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/geometricProbability.py)
