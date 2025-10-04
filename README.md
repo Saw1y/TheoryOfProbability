@@ -7,7 +7,7 @@
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Geometric%20Probability/geometricProbability.py)
 
 ## Тема 2. Моделирование связи частотного и классического определения вероятности: Алексей и отпуск в Сочи
-* [Усовие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/README.md)
+* [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/README.md)
 * [Реализация]()
 
 ## Тема 3. Применение условных вероятностей в анализе данных (Не сделано)
