@@ -74,4 +74,4 @@ $$
 ## Решение через частотное определение вероятности
 
 Проведём экспиремент, где проведём множество спинов 
-![]("")
+![]("https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/frequency.png")
