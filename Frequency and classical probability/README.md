@@ -76,3 +76,8 @@ $$
 ---
 
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/frequency.png)
+
+
+## Вывод
+
+**При увеличение количества повторений ситуации, частота события сходится к его теоретической вероятности.**
