@@ -1,63 +1,65 @@
-import numpy as np
+import random
 import matplotlib.pyplot as plt
 
-num_simulations = 1_000_000  # Число троек опытов
-check_points = np.array([
-    100, 500, 1000, 5000, 10_000, 50_000,
-    100_000, 200_000, 500_000, 1_000_000
-])
+N = 1_000_000
+check = [100, 500, 1000, 5000, 10_000, 50_000,
+               100_000, 200_000, 500_000, 1_000_000]
 
-# Рулетка: 0=red, 1=black, 2=green 
-colors = np.array(['red', 'black', 'green'])
-probs = [18/37, 18/37, 1/37]  # Вероятности цветов
+red = 18 / 37
+black = 18 / 37
+green = 1 / 37
 
-P_theoretical = 3 * (18/37)**2 * (18/37)
-print(f"Теоретическая вероятность: {P_theoretical:.6f}")
+# Теоретическая вероятность: 3 варианта (R,R,B), (R,B,R), (B,R,R)
+probability = 3 * (red ** 2) * black
+print(f"Теоретическая вероятность: {probability:.6f}")
 
-
-spins_indices = np.random.choice([0, 1, 2], size=(num_simulations, 3), p=probs)
-
-red_count = np.sum(spins_indices == 0, axis=1)  # Сколько 'red' в каждом из 3 спинов
-black_count = np.sum(spins_indices == 1, axis=1)  # Сколько 'black'
-
-# Определяем успех: ровно 2 красных и 1 чёрный
-success = (red_count == 2) & (black_count == 1)  
-
-# Накопленная частота в контрольных точках
-cumulative_success = np.cumsum(success)  # Количество успехов к каждому шагу
-N_list = []
-freq_list = []
-
-print("\nN\t\t\tЧастота")
+success_count = 0
+results = []  # будем сохранять накопленную частоту на контрольных точках
+print()
+print("N\t\t\tЧастота")
 print("-" * 25)
 
-for N in check_points:
-    if N <= num_simulations:
-        freq = cumulative_success[N - 1] / N  # Частота после N опытов
-        N_list.append(N)
-        freq_list.append(freq)
-        n_formatted = f"{N:_}".replace("_", " ")
-        print(f"{n_formatted}\t\t{freq:.6f}")
+for trial in range(1, N + 1):
+    # Один спин — три раза крутим рулетку
+    spins = []
+    for _ in range(3):
+        r = random.random()
+        if r < red:
+            spins.append("red")
+        elif r < red + black:
+            spins.append("black")
+        else:
+            spins.append("green")
 
-# === Построение графика ===
-plt.figure(figsize=(14, 8))
-plt.plot(N_list, freq_list, 'o-', color='mediumblue', linewidth=2.5, markersize=6,
-         label='Частота события', alpha=0.9)
-plt.axhline(y=P_theoretical, color='crimson', linestyle='--', linewidth=3,
-            label=f'Теоретическая вероятность ({P_theoretical:.6f})')
+    n_red = spins.count("red")
+    n_black = spins.count("black")
+    if n_red == 2 and n_black == 1:
+        success_count += 1
+
+    if trial in check:
+        freq = success_count / trial
+        results.append((trial, freq))
+        print(f"{trial:_}\t\t{freq:.6f}")
+
+#  График 
+Ns, freqs = zip(*results)  
+
+plt.figure(figsize=(12, 7))
+plt.plot(Ns, freqs, 'o-', color='darkblue', linewidth=2.5,
+         markersize=6, label='Экспериментальная частота', alpha=0.9)
+plt.axhline(P_theoretical, color='crimson', linestyle='--', linewidth=3,
+            label=f'Теория: {probability:.6f}')
 
 plt.xscale('log')
-plt.xlabel('Число испытаний $N$', fontsize=14)
-plt.ylabel('Частота события', fontsize=14)
-plt.title('Сходимость частотной вероятности к теоретической\n'
-          '(Ровно 2 красных и 1 чёрный за 3 спина)',
-          fontsize=16, pad=20)
-plt.grid(True, which="both", linestyle='--', alpha=0.6)
-plt.legend(fontsize=12)
-plt.xticks(ticks=check_points, labels=[f"{int(n):,}".replace(",", " ") for n in check_points],
-           rotation=0, fontsize=11)
-plt.yticks(fontsize=11)
+plt.xlabel('Число испытаний $N$', fontsize=13)
+plt.ylabel('Частота события', fontsize=13)
+plt.title('Сходимость частоты к теории\n'
+          '(ровно 2 красных и 1 чёрный за 3 спина)', fontsize=14)
+plt.grid(True, which="both", alpha=0.5, linestyle='--')
+plt.legend(fontsize=11)
+plt.xticks(ticks=sorted(check),
+           labels=[f"{n:,}".replace(",", " ") for n in sorted(check)],
+           rotation=0, fontsize=10)
+plt.yticks(fontsize=10)
 plt.tight_layout()
-
-# Показать график
 plt.show()
