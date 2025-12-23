@@ -97,6 +97,24 @@ print(f"P(ST | Right), через фильтр: {p:.3f}")
 
 $$ P(ST | Right) = 0.194 $$ 
 
-2) Какова вероятность, что игрок старше 30 лет, если его рейтинг выше 80?
+2) Какова вероятность, что защитник выше 185 см?
+```PY
+# Способ 1: Вручную по формуле P(Height>185 | Defender)
+defenders = df[df['positions'].str.contains('CB|RB|LB')]
+p_def = len(defenders) / len(df)
+tall_def = defenders[defenders['height_cm'] > 185]
+p_tall_def = len(tall_def) / len(df)
+p = p_tall_def / p_def
+print(f"P(Height>185 | Defender), вручную: {p:.3f}")
+```
+
+$$ P(Height>185 | Defender) = 0.391 $$ 
+
+```py
+# Способ 2: Через фильтр P(Height>185 | Defender)
+p = (defenders['height_cm'] > 185).mean()
+print(f"P(Height>185 | Defender), через фильтр: {p:.3f}")
+```
+$$ P(Height>185 | Defender) = 0.391 $$ 
 
 
