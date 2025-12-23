@@ -17,5 +17,5 @@
 
 ## Тема 4. Парадоксы в теории вероятностей (Не сделано)
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/README.md)
-* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/Frequency%26classicalProbability.py) 
+* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/padadox.py) 
 
