@@ -14,7 +14,7 @@
 
 ## Тема 3. Применение условных вероятностей в анализе данных: Футбольная статистика (Не сделано)
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/README.MD)
-* [Реализация]() 
+* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/football.py) 
 
 
 ## Тема 4. Парадоксы в теории вероятностей: Монетная игра в Коломне
