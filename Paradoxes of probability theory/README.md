@@ -41,7 +41,8 @@
 
 ### Соделируем 1 миллион игр
 
-![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/Screenshot_4.png)
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/paradox1.png)
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/paradox2.png)
 
 
 
