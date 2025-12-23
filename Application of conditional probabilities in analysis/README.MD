@@ -83,7 +83,7 @@ right = df[df['preferred_foot'] == 'Right']
 p_right = len(right) / len(df)
 st_right = right[right['positions'].str.contains('ST')]
 p_st_right = len(st_right) / len(df)
-p_ = p_st_right / p_right
+p = p_st_right / p_right
 print(f"P(ST | Right), вручную: {p:.3f}")
 ```
 
