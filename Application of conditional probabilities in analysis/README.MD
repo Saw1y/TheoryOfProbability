@@ -117,4 +117,23 @@ print(f"P(Height>185 | Defender), через фильтр: {p:.3f}")
 ```
 $$ P(Height>185 | Defender) = 0.391 $$ 
 
+3) *Какова вероятность, что игрок старше 30 лет, если его рейтинг > 80?*
 
+```py
+# Cпособ 1: Вручную по формуле P(Age>30 | Overall>80)
+high = df[df['overall_rating'] > 80]
+p_high = len(high) / len(df)
+old_high = high[high['age'] > 30]
+p_old_high = len(old_high) / len(df)
+p = p_old_high / p_high
+print(f"P(Age>30 | Overall>80), вручную: {p:.3f}")
+```
+
+$$ P(Age>30 | Overall>80) = 0.268 $$
+
+```py
+# Cпособ 2:Через фильтр P(Age>30 | Overall>80)
+p = (high['age'] > 30).mean()
+print(f"P(Age>30 | Overall>80), через фильтр: {p:.3f}")
+```
+$$ P(Age>30 | Overall>80) = 0.268 $$
