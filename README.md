@@ -12,7 +12,7 @@
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/Frequency%26classicalProbability.py) 
 
-## Тема 3. Применение условных вероятностей в анализе данных: Футбольная статистика (Не сделано)
+## Тема 3. Применение условных вероятностей в анализе данных: Футбольный агент Алексей
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/README.MD)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/football.py) 
 
