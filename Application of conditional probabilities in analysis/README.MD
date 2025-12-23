@@ -18,7 +18,7 @@ $$  P(A) = \frac{\text{число случаев А}}{\text{число игро�
 $$  P(A|B) = \frac{P(A * B)}{P(B)} $$
 
 Посмотрим, на какие вопросы смог ответить скаут Алексей с помощью теории вероятности:  
-![Ссылка на датасет:]https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/fifa_players_clean.csv
+![Ссылка на датасет:](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/fifa_players_clean.csv)
 
 ---
 
