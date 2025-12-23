@@ -38,3 +38,20 @@ $$  P(A|B) = \frac{P(B|A) * P(A)}{P(B)} $$
 | `preferred_foot` | Категориальный | Основная нога: Left / Right | Есть пропуски | 
 
 **Вычисление простых вероятностей**
+Вычислим некоторые априорные вероятности
+1) Вероятность, что футболисту ровно 30 лет
+```py
+P_age_30 = (df['age'] == 30).mean()
+print(f"P(age=30) = {P_age_30:.3f}")
+```
+2) Вероятность быть правоногим или левоногим
+```py
+for foot in df['preferred_foot'].unique():
+    P_foot = (df['preferred_foot'] == foot).mean()
+    print(f"P({foot}) = {P_foot:.3f}")
+```
+3) Вероятность, что игрок — нападающий
+```py
+P_ST = df['positions'].str.contains('ST').mean()
+print(f"P(position=ST) = {P_ST:.3f}")
+```
