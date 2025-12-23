@@ -77,28 +77,26 @@ $$ P(position=ST) = 0.177 $$
 $$  P(A|B) = \frac{P(A * B)}{P(B)} $$
 
 1) Какова вероятность, что игрок — нападающий, если он правша?
-```py 
-# Способ 1: Вручную по формуле
-right_footed = df[df['preferred_foot'] == 'Right']
-P_Right = len(right_footed) / len(df)
-
-strikers_right = right_footed[right_footed['positions'].str.contains('ST')]
-P_ST_and_Right = len(strikers_right) / len(df)
-
-P_ST_given_Right = P_ST_and_Right / P_Right
-print(f"P(ST | Right), рассчитанная вручную: {P_ST_given_Right:.3f}")
+```PY
+# Способ 1: Вручную по формуле P(ST | Right)
+right = df[df['preferred_foot'] == 'Right']
+p_right = len(right) / len(df)
+st_right = right[right['positions'].str.contains('ST')]
+p_st_right = len(st_right) / len(df)
+p_ = p_st_right / p_right
+print(f"P(ST | Right), вручную: {p:.3f}")
 ```
 
 $$ P(ST | Right) = 0.194 $$ 
 
-```py
-# Способ 2: Просто отфильтровав датафрейм и посчитав среднее
-right_footed = df[df['preferred_foot'] == 'Right']
-P_ST_given_Right_filtered = right_footed['positions'].str.contains('ST').mean()
-print(f"P(ST | Right), рассчитанная через фильтр: {P_ST_given_Right_filtered:.3f}")
+```PY
+# Способ 2: Через фильтр P(ST | Right)
+p = right['positions'].str.contains('ST').mean()
+print(f"P(ST | Right), через фильтр: {p:.3f}")
 ```
 
 $$ P(ST | Right) = 0.194 $$ 
 
-2) 
+2) Какова вероятность, что игрок старше 30 лет, если его рейтинг выше 80?
+
 
