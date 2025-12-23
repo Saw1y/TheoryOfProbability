@@ -77,7 +77,7 @@ $$ P(position=ST) = 0.177 $$
 $$  P(A|B) = \frac{P(A * B)}{P(B)} $$
 
 1) Какова вероятность, что игрок — нападающий, если он правша?
-``py 
+```py 
 # Способ 1: Вручную по формуле
 right_footed = df[df['preferred_foot'] == 'Right']
 P_Right = len(right_footed) / len(df)
@@ -92,15 +92,10 @@ print(f"P(ST | Right), рассчитанная вручную: {P_ST_given_Righ
 $$ P(ST | Right) = 0.194 $$ 
 
 ```py
-# Способ 1: Вручную по формуле
+# Способ 2: Просто отфильтровав датафрейм и посчитав среднее
 right_footed = df[df['preferred_foot'] == 'Right']
-P_Right = len(right_footed) / len(df)
-
-strikers_right = right_footed[right_footed['positions'].str.contains('ST')]
-P_ST_and_Right = len(strikers_right) / len(df)
-
-P_ST_given_Right = P_ST_and_Right / P_Right
-print(f"P(ST | Right), рассчитанная вручную: {P_ST_given_Right:.3f}")
+P_ST_given_Right_filtered = right_footed['positions'].str.contains('ST').mean()
+print(f"P(ST | Right), рассчитанная через фильтр: {P_ST_given_Right_filtered:.3f}")
 ```
 
 $$ P(ST | Right) = 0.194 $$ 
