@@ -64,3 +64,7 @@ $$ P(Right) = 0.768 $$
 P_ST = df['positions'].str.contains('ST').mean()
 print(f"P(position=ST) = {P_ST:.3f}")
 ```
+
+$$ P(position=ST) = 0.177 $$ 
+
+
