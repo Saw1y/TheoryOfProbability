@@ -74,3 +74,36 @@ $$ P(position=ST) = 0.177 $$
 
 Условные вероятности определяются по формуле: 
 
+$$  P(A|B) = \frac{P(A * B)}{P(B)} $$
+
+1) Какова вероятность, что игрок — нападающий, если он правша?
+``py 
+# Способ 1: Вручную по формуле
+right_footed = df[df['preferred_foot'] == 'Right']
+P_Right = len(right_footed) / len(df)
+
+strikers_right = right_footed[right_footed['positions'].str.contains('ST')]
+P_ST_and_Right = len(strikers_right) / len(df)
+
+P_ST_given_Right = P_ST_and_Right / P_Right
+print(f"P(ST | Right), рассчитанная вручную: {P_ST_given_Right:.3f}")
+```
+
+$$ P(ST | Right) = 0.194 $$ 
+
+```py
+# Способ 1: Вручную по формуле
+right_footed = df[df['preferred_foot'] == 'Right']
+P_Right = len(right_footed) / len(df)
+
+strikers_right = right_footed[right_footed['positions'].str.contains('ST')]
+P_ST_and_Right = len(strikers_right) / len(df)
+
+P_ST_given_Right = P_ST_and_Right / P_Right
+print(f"P(ST | Right), рассчитанная вручную: {P_ST_given_Right:.3f}")
+```
+
+$$ P(ST | Right) = 0.194 $$ 
+
+2) 
+
