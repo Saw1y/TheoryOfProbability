@@ -44,12 +44,21 @@ $$  P(A|B) = \frac{P(B|A) * P(A)}{P(B)} $$
 P_age_30 = (df['age'] == 30).mean()
 print(f"P(age=30) = {P_age_30:.3f}")
 ```
+
+$$ P(age = 30) = 0.050 $$
+
 2) Вероятность быть правоногим или левоногим
 ```py
 for foot in df['preferred_foot'].unique():
     P_foot = (df['preferred_foot'] == foot).mean()
     print(f"P({foot}) = {P_foot:.3f}")
 ```
+
+$$ P(Left) = 0.232 $$
+
+
+$$ P(Right) = 0.768 $$
+
 3) Вероятность, что игрок — нападающий
 ```py
 P_ST = df['positions'].str.contains('ST').mean()
