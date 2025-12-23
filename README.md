@@ -13,7 +13,9 @@
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Frequency%20and%20classical%20probability/Frequency%26classicalProbability.py) 
 
 ## Тема 3. Применение условных вероятностей в анализе данных: Футбольная статистика (Не сделано)
-На некотором наборе данных (выбрать самостоятельно, можно: https://www.kaggle.com/datasets) продемонстрировать применение условных вероятностей (см. пример с рейтингом автомобилей по типу кузова). Рассматриваемый набор данных необходимо описать (назначение, описание признаков).
+* [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Application%20of%20conditional%20probabilities%20in%20analysis/README.MD)
+* [Реализация]() 
+
 
 ## Тема 4. Парадоксы в теории вероятностей: Монетная игра в Коломне
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/README.md)
