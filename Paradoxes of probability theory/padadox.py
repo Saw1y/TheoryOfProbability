@@ -27,7 +27,7 @@ def simulate(n, max_payout=None):
 num_games = 1_000_000      # много игр, чтобы среднее стабилизировалось
 max_payout = 1_048_576     # примерно миллион — 2^20, дальше не платим больше
 
-print("Запускаю симуляцию...")
+
 results = simulate(num_games, max_payout)
 
 # Считаем среднее и медиану
