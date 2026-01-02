@@ -10,4 +10,4 @@
 * среднее квадратическое отклонение и моду
 * отобразить многоугольник распределения.
 
-!Решение()
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.py)
