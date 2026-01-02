@@ -12,8 +12,10 @@
 
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.py)
 
-$$ M(X) = $$  
+$$ M(X) = 0.6 $$  
   
-$$ D(X) = $$
+$$ D(X) = 0.54 $$
 
-$$ \sigma(x) = $$
+$$ \sigma(x) = 0.73485 $$
+
+$$ Mod(x) = 0 $$
