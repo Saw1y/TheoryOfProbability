@@ -11,3 +11,9 @@
 * отобразить многоугольник распределения.
 
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.py)
+
+$$ M(X) = $$  
+  
+$$ D(X) = $$
+
+$$ \sigma(x) = $$
