@@ -24,3 +24,8 @@
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/padadox.py) 
 
+
+## Тема 5. Законы распределение ДСВ
+* [Условие]()
+* [Реализация]() 
+
