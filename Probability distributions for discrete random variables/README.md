@@ -18,5 +18,6 @@ $$ D(X) = 0.54 $$
 
 $$ \sigma(x) = 0.73485 $$
 
-$$ Mod(x) = 0 $$
+$$ Mod(x) = 0 $$  
+
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.png)
