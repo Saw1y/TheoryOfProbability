@@ -53,3 +53,15 @@ $$ Mod(Y) = 2 $$
 * среднее квадратическое отклонение и моду
 * отобразить многоугольник распределения.
 
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.py)
+
+
+$$ M(Y) = 2.5 $$  
+  
+$$ D(Y) = 2.5 $$
+
+$$ \sigma(Y) = 1.58114 $$
+
+$$ Mod(Y) = 2 $$  
+
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.png)
