@@ -12,6 +12,10 @@
 
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.py)
 
+| k   | 0       | 1       | 2       | 3       | 4       | 5       | 6       |
+|-----|---------|---------|---------|---------|---------|---------|---------|
+| P(X=k) | 0.531441 | 0.354294 | 0.098415 | 0.014580 | 0.001215 | 0.000054 | 0.000001 |
+
 $$ M(X) = 0.6 $$  
   
 $$ D(X) = 0.54 $$
