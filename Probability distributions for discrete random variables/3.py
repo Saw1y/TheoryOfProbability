@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import geom
-
+import pandas as pd
 # Параметр распределения
 p = 0.2
 
@@ -12,6 +12,13 @@ geom_dist = geom(p)
 z_vals = np.arange(1, 21)
 probs = geom_dist.pmf(z_vals)
 
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+k = 14
+df = pd.DataFrame(data=probs[:k + 1].reshape(1, -1),
+                  columns=z_vals[:k + 1],
+                  index=['p'])
+print(df)
 # Характеристики
 mean = geom_dist.mean()
 var = geom_dist.var()
@@ -25,7 +32,7 @@ print(f"Дисперсия: {var:.5f}")
 print(f"Среднее квадратичное отклонение: {std:.5f}")
 print(f"Мода: {mode_vals.tolist()}")
 
-# График — многоугольник распределения
+# Многоугольник распределения
 plt.figure(figsize=(9, 5))
 plt.plot(z_vals, probs, 'o-', linewidth=2, markersize=8, color='darkorange', label='P(Z = k)')
 plt.bar(z_vals, probs, alpha=0.3, color='peachpuff', edgecolor='black')
