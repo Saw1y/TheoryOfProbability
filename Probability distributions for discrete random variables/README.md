@@ -35,13 +35,13 @@ $$ Mod(x) = 0 $$
 
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.py)
 
-$$ M(X) = 2.5 $$  
+$$ M(Y) = 2.5 $$  
   
-$$ D(X) = 2.5 $$
+$$ D(Y) = 2.5 $$
 
-$$ \sigma(x) = 1.58114 $$
+$$ \sigma(Y) = 1.58114 $$
 
-$$ Mod(x) = 2 $$  
+$$ Mod(Y) = 2 $$  
 
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.png)
 
