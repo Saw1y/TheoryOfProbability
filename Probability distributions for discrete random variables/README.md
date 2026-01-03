@@ -78,3 +78,16 @@ $$ Mod(Z) = 1 $$
 * среднее квадратическое отклонение и моду
 * отобразить многоугольник распределения.
 
+
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.py)
+
+
+$$ M(Z) = 5 $$  
+  
+$$ D(Z) = 20 $$
+
+$$ \sigma(Z) = 4.47214 $$
+
+$$ Mod(Z) = 1 $$  
+
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.png)
