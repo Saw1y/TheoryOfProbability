@@ -33,13 +33,15 @@ $$ Mod(x) = 0 $$
 * среднее квадратическое отклонение и моду
 * отобразить многоугольник распределения.
 
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.py)
 
-
-$$ M(X) = 0.6 $$  
+$$ M(X) = 3 $$  
   
-$$ D(X) = 0.54 $$
+$$ D(X) = 3 $$
 
-$$ \sigma(x) = 0.73485 $$
+$$ \sigma(x) = 1.73205 $$
 
-$$ Mod(x) = 0 $$  
+$$ Mod(x) = [2,3] $$  
+
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.png)
 
