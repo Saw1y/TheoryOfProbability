@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import hypergeom
-
+import pandas as pd
 [N, M, n] = [12, 5, 4]
 
 X = np.arange(0, n + 1)
@@ -12,21 +12,29 @@ geom_dist = hypergeom(M=N, n=M, N=n)  # M — общее, n — успехи, N 
 # Вероятности
 probabilities = geom_dist.pmf(X)
 
+
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+# Вывод таблицы
+df = pd.DataFrame(data=probabilities.reshape(1, -1),
+                  columns=X,
+                  index=['p'])
+print(df)
 # Характеристики
 mean = geom_dist.mean()
 var = geom_dist.var()
 std = geom_dist.std()
 
-# Мода — автоматически, как вы делали
+# Мода
 max_prob = probabilities.max()
 mode = X[np.isclose(probabilities, max_prob)]
 
-print(f"Мат. ожидание = {mean:.4f}")
-print(f"Дисперсия = {var:.4f}")
-print(f"Среднее  ква. отклонение = {std:.4f}")
+print(f"Мат.ожидание = {mean:.5f}")
+print(f"Дисперсия = {var:.5f}")
+print(f"Среднее квадратическое отклонение = {std:.5f}")
 print(f"Мода = {mode.tolist()}")
 
-# График — многоугольник распределения
+# Многоугольник распределения
 plt.figure(figsize=(9, 5))
 plt.plot(X, probabilities, 'o-', linewidth=2, markersize=8, color='crimson', label='P(W = k)')
 plt.bar(X, probabilities, alpha=0.3, color='lightpink', edgecolor='black')
