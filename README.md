@@ -28,4 +28,6 @@
 ## Тема 5. Законы распределение ДСВ
 * [Условия задач](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/README.md)
 
-
+## Тема 6. Создание собственных распределений в Python
+* [Условие]()
+* [Реализация]() 
