@@ -56,12 +56,12 @@ $$ Mod(Y) = 2 $$
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.py)
 
 
-$$ M(Y) = 2.5 $$  
+$$ M(Z) = 5 $$  
   
-$$ D(Y) = 2.5 $$
+$$ D(Z) = 20 $$
 
-$$ \sigma(Y) = 1.58114 $$
+$$ \sigma(Z) = 4.47214 $$
 
-$$ Mod(Y) = 2 $$  
+$$ Mod(Z) = 1 $$  
 
-![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.png)
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.png)
