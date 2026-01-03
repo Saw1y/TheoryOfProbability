@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import poisson
 
 # Параметр распределения
-lam = 3
+lam = 2.5
 
 # Создаём распределение
 pois = poisson(mu=lam)
