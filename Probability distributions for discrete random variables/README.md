@@ -93,12 +93,16 @@ $$ Mod(Z) = 1 $$
 
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.py)
 
+| k   | 0       | 1       | 2       | 3       | 4       |
+|-----|---------|---------|---------|---------|---------|
+| P(W=k) | 0.070711 | 0.353553 | 0.424264 | 0.141421 | 0.010101 |
 
-$$ M(W) = 1.6667 $$  
+
+$$ M(W) = 1.66667 $$  
   
-$$ D(W) = 0.7071 $$
+$$ D(W) = 0.70707 $$
 
-$$ \sigma(W) = 0.8409 $$
+$$ \sigma(W) = 0.84087 $$
 
 $$ Mod(W) = 2 $$  
 
