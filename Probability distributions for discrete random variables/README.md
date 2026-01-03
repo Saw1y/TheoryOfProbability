@@ -82,12 +82,12 @@ $$ Mod(Z) = 1 $$
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.py)
 
 
-$$ M(Z) = 5 $$  
+$$ M(W) = 1.6667 $$  
   
-$$ D(Z) = 20 $$
+$$ D(W) = 0.7071 $$
 
-$$ \sigma(Z) = 4.47214 $$
+$$ \sigma(W) = 0.8409 $$
 
-$$ Mod(Z) = 1 $$  
+$$ Mod(W) = 2 $$  
 
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.png)
