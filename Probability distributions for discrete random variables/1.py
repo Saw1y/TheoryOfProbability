@@ -1,28 +1,30 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import binom
-
+import pandas as pd
 # Параметры
 n = 6
 p = 0.1
 
 # Создаём объект биномиального распределения
 binomial_dist = binom(n, p)
-
-# Значения X: от 0 до n
 X = np.arange(0, n + 1)
 
 # Вероятности P(X=k)
 probabilities = binomial_dist.pmf(X)
-
+# Вывод закона распределения в виде таблицы 
+df = pd.DataFrame(data=probabilities.reshape(1, -1),
+                  columns=X,
+                  index=['p'])
+print(df)
 # Математическое ожидание, дисперсия, СКО
 mean = binomial_dist.mean()
 variance = binomial_dist.var()
 std_dev = binomial_dist.std()
 
-print(f"Мат. ожидание = {mean:.5f}")
+print(f"\nМат. ожидание = {mean:.5f}")
 print(f"Дисперсия = {variance:.5f}")
-print(f"Ст. отклонение = {std_dev:.5f}")
+print(f"Среднее квадратичное отклонение = {std_dev:.5f}")
 
 # Мода
 max_prob = probabilities.max()
