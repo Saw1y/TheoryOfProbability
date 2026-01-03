@@ -79,7 +79,7 @@ $$ Mod(Z) = 1 $$
 * отобразить многоугольник распределения.
 
 
-![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.py)
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.py)
 
 
 $$ M(Z) = 5 $$  
@@ -90,4 +90,4 @@ $$ \sigma(Z) = 4.47214 $$
 
 $$ Mod(Z) = 1 $$  
 
-![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.png)
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.png)
