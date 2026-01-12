@@ -37,7 +37,10 @@ $$
 * вычислить математическое ожидание, дисперсию и среднее квадратическое отклонение; 
 * вычислить квантиль уровня q и p%-ную точку случайной величины;
 * определить коэффициент асимметрии и эксцесс.
+
 ![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom.ipynb)
+
+
 ## 1. Нормировка плотности
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom1.png)
 ## 2. Графики плотности и функции распределения 
