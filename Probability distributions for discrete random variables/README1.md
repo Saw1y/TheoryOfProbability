@@ -1,0 +1,8 @@
+## 1. Новогодние кексы Алексея (Биномиальный закон)
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/1.py)
+## 2. Подаренные креветки (Закон Пуассона)
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/2.py)
+## 3. Жанглирование мандаринами (Геометрический закон)
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/3.py)
+## 4. Золотистые пряники (Гипергеометрический закон)
+![Решение](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/4.py)
