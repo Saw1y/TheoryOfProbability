@@ -13,7 +13,7 @@
 
 $$
 \phi(x) = \begin{cases} 
-\sin\left(\frac{x}{2}\right), & x \in [0, \pi] \\
+\frac{4 \cos^2{x}}{\pi}, & x \in [0, \pi] \\
 0, & \text{иначе}
 \end{cases}
 $$
