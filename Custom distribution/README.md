@@ -13,7 +13,7 @@
 
 $$
 \phi(x) = \begin{cases} 
-\frac{4 \cos^2{x}}{\pi}, & x \in [0, \pi] \\
+\frac{4 \cos^2{x}}{\pi}, & x \in [0, \frac{\pi}{2}] \\
 0, & \text{иначе}
 \end{cases}
 $$
