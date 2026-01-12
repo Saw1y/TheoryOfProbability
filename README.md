@@ -24,10 +24,14 @@
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Paradoxes%20of%20probability%20theory/padadox.py) 
 
+---
 
 ## Тема 5. Законы распределение ДСВ
 * [Условия задач](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/README.md)
 * [Решения ](https://github.com/Saw1y/TheoryOfProbability/blob/main/Probability%20distributions%20for%20discrete%20random%20variables/README1.md)
+
+---
+
 ## Тема 6. Создание собственных распределений в Python
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom.ipynb) 
