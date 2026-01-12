@@ -23,7 +23,7 @@ $$
 $$
 F(x) = \begin{cases} 
 0, & x \le 0 \\
-1 - \cos\left(\frac{x}{2}\right), & 0 < x \le \pi \\
+\frac{2x + \sin{2x}}{\pi}, & 0 < x \le \frac{\pi}{2} \\
 1, & x > \pi 
 \end{cases}
 $$
