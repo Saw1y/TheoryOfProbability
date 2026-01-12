@@ -24,7 +24,7 @@ $$
 F(x) = \begin{cases} 
 0, & x \le 0 \\
 \frac{2x + \sin{2x}}{\pi}, & 0 < x \le \frac{\pi}{2} \\
-1, & x > \pi 
+1, & x > \frac{\pi}{2}
 \end{cases}
 $$
 
