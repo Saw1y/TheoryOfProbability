@@ -39,3 +39,4 @@ $$
 * определить коэффициент асимметрии и эксцесс.
 
 ## 1. Нормировка плотности
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom1.png)
