@@ -40,3 +40,13 @@ $$
 
 ## 1. Нормировка плотности
 ![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom1.png)
+## 2. Графики плотности и функции распределения 
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom2.png)
+## 3. Вероятноть попадания св в некоторый интревал
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom3.png)
+## 4. Вычислить мат. ожидание, дисперсию, ско
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom4.png)
+## 5. Вычислить квантиль уровня q и p%-ную точку случайной величины
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom5.png)
+## 6. Определить коэффициент асимметрии и эксцесс
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom6.png)
