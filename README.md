@@ -40,5 +40,5 @@
 
 
 ## Тема 7. Исследование зависимости плотности от параметров НСВ в Python
-* [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/README.md)
-* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom.ipynb) 
+* [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Dependence%20of%20density%20on%20the%20parameters%20of%20a%20continuous%20random%20variable/README.md)
+* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Dependence%20of%20density%20on%20the%20parameters%20of%20a%20continuous%20random%20variable/Dependence%20of%20density.ipynb) 
