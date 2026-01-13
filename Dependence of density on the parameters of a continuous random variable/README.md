@@ -22,3 +22,4 @@ $$φ(x) = \frac{Г(\frac{k + 1}{2})}{Г(\frac{k}{2}) \sqrt{\pi k}} (1 + \frac{x^
 * Математическое ожидание: $M(t) = 0$
 * Дисперсия: $D(t) = \frac{k}{k-2}$
   
+![](https://github.com/Saw1y/TheoryOfProbability/blob/main/Dependence%20of%20density%20on%20the%20parameters%20of%20a%20continuous%20random%20variable/density1.png )
