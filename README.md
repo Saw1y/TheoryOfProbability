@@ -35,3 +35,10 @@
 ## Тема 6. Создание собственных распределений в Python
 * [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/README.md)
 * [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom.ipynb) 
+
+---
+
+
+## Тема 7. Исследование зависимости плотности от параметров НСВ в Python
+* [Условие](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/README.md)
+* [Реализация](https://github.com/Saw1y/TheoryOfProbability/blob/main/Custom%20distribution/custom.ipynb) 
